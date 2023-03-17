@@ -1,0 +1,15 @@
+<div class="all_blogs_cards">
+  <div class="cards" *ngFor="let itemBlog of element">
+    <div class="cards_img">
+      <a routerLink="/blogPost/45">
+        <img [src]="itemBlog.img" alt="two-w." />
+      </a>
+    </div>
+    <div class="cards_data">
+      <a href="#"
+        ><h4 class="title">{{ itemBlog.title }}</h4></a>
+      <p class="text">{{ itemBlog?.text }}</p>
+      <p class="text_data">{{ itemBlog?.textUs }}</p>
+    </div>
+  </div>
+</div>

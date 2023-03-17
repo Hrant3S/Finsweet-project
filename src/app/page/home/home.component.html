@@ -1,0 +1,214 @@
+<app-menu></app-menu>
+
+<!-- Home hero -->
+
+<div class="images_menu">
+  <div class="container">
+    <div class="home_block">
+      <h4 class="home_posted">Posted on startup</h4>
+      <h3 class="home_step">Step-by-step guide to choosing great font pairs</h3>
+      <p class="home_title">By <span> James West </span> | May 23, 2022</p>
+      <p class="home_text">
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident.
+      </p>
+      <button class="home_btn">
+        <a routerLink="/blogPost/: id">Read More</a><span> ></span>
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- Featured Post*/ -->
+<div class="featured_post">
+  <div class="container">
+    <div class="featured_block">
+      <div class="feature_post_block">
+          <h2 class="featured_titleOne">Featured Post</h2>
+          <div class="feat_border">
+            <app-featured [elements]="featPost"></app-featured>
+          </div>
+      </div>
+
+      <div class="featured_all_post">
+          <a class="featured_titleTwo">All Posts</a>
+          <a class="view_btn" routerLink="/blog/:id">View All</a>
+          <div class="feat_post_allblock">
+            <app-view-all-post [element]="blogPost"></app-view-all-post>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- About mision and our mision block -->
+<section class="about_mision">
+  <div class="container">
+    <div class="about_mision_block">
+      <div class="color_line">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="about_block">
+        <div class="about_us">
+          <h4>ABOUT US</h4>
+          <p class="text_weight">
+            We are a community of content writers who share their learnings
+          </p>
+          <p class="text_lorem">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <a href="#">Read More ></a>
+        </div>
+
+        <div class="our_mision">
+          <h4>Our Mision</h4>
+          <p class="text_mision">
+            Creating valuable content for creatives all around the world
+          </p>
+          <p class="text_lorem">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Choose Category block 5-->
+<div class="choose_catagory">
+  <div class="container">
+    <h2 class="choo_title">Choose A Catagory</h2>
+    <div>
+      <app-choose-catagory [element]="chooseName"></app-choose-catagory>
+    </div>
+  </div>
+</div>
+
+<div class="special_post">
+  <div class="container">
+    <div class="img_post">
+      <div class="special_started">
+        <div class="spec_m">
+          <h4>WHY WE STARTED</h4>
+          <p class="spec_big_text">
+            It started out as a simple idea and evolved into our passion
+          </p>
+          <p class="spec_litl_text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip.
+          </p>
+          <button class="spec_btn_2" type="submit">Discover our story ></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- /* List of authors----_block7 */ -->
+
+<div class="list_authors">
+  <div class="container">
+    <div class="list_autors">
+      <h2 [routerLink]="['/blogPost', '45']" class="auto_title">
+        List of Authors
+      </h2>
+      <app-list-of-authors [element]="listAuthors"></app-list-of-authors>
+    </div>
+  </div>
+</div>
+
+<!-- Logo component block 8-->
+
+<div class="logo_component">
+  <div class="container">
+    <div class="logo_style">
+      <div class="logo_component_style_1">
+        <span>We are</span>
+        <h5>Featured in</h5>
+      </div>
+
+      <div class="logo_component_style_2">
+        <img src="assets/img/Logo 01.png" alt="lm" />
+      </div>
+
+      <div class="logo_component_style_2">
+        <img src="assets/img/Logo 02.png" alt="" />
+      </div>
+
+      <div class="logo_component_style_2">
+        <img src="assets/img/Logo 03.png" alt="" />
+      </div>
+
+      <div class="logo_component_style_2">
+        <img src="assets/img/Logo 04.png" alt="" />
+      </div>
+
+      <div class="logo_component_style_2">
+        <img src="assets/img/Logo 05.png" alt="" />
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- testimonial block 9 -->
+<div class="testimonials">
+  <div class="container">
+    <div class="testimonials_bg_color">
+      <div class="testimonials_1">
+        <h5>TESTIMONIALs</h5>
+        <p class="testimonials_1_textx1">What people say about our blog</p>
+        <p class="testimonials_1_textx2">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor.
+        </p>
+        <div class="testimonials_liner"></div>
+      </div>
+
+      <div class="testimonials_1 all">
+        <p class="all_text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+        <div class="testimo_name">
+          <img src="assets/img/Vallem.png" alt="name vallem" />
+          <h4>Jonathan Vallem</h4>
+          <p>New york, USA</p>
+        </div>
+        <div class="str_img">
+          <a href="#"
+            ><img
+              class="str_img_one"
+              src="assets/img/Back button.png"
+              alt="Back button"
+          /></a>
+          <a href="#"
+            ><img
+              class="str_img_one"
+              src="assets/img/Next Button.png"
+              alt="Next Button"
+          /></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- /* Join our team - - - block10 */ -->
+
+<div class="join_our_team">
+  <div class="container">
+    <app-join-now [element]="joinNew"></app-join-now>
+  </div>
+</div>
+
+<!-- <footer> -->
+<app-footer></app-footer>

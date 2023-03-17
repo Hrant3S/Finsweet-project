@@ -1,0 +1,72 @@
+.all_blogs_cards {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.cards {
+  display: flex;
+  padding: 1rem 0rem;
+  width: 838px;
+  height: 312px;
+  margin-top: 1.5rem;
+}
+.cards_img img {
+  transition: all 0.3s;
+}
+.cards_img img:hover {
+  transform: skew(10deg, 10deg);
+  box-shadow: 1px 5px 5px;
+}
+.cards_data {
+  display: flex;
+  padding-left: 1rem;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.cards_data a {
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #592ea9;
+  transition: all 0.3s;
+}
+.title:hover {
+  color: #ff5c50;
+}
+.text {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -2px;
+  color: #232536;
+  padding: 15px 0px;
+}
+.text_data {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #6d6e76;
+  width: 590px;
+  height: 84px;
+}
+
+a{
+  text-decoration: none;
+  display: inline-block;
+}

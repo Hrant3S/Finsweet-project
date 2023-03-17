@@ -1,0 +1,11 @@
+<div class="post_blockes" *ngFor="let dataPost of elements">
+  <div class="featured_img">
+    <img src={{dataPost?.img}} alt="white">
+  </div>
+  <div class="post_text_fe">
+    <p class="feat_data">By <span>{{dataPost.dataSpanText}}</span>{{dataPost.dataText}}</p>
+    <p class="feat_text">{{dataPost.text}}</p>
+    <p class="feat_text2">{{dataPost.textUs}}</p>
+    <a class="feat_btn" type="submit">Read Move ></a>
+  </div>
+</div>

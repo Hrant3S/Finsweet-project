@@ -1,0 +1,78 @@
+<!-- navbar (contact) -->
+<app-menu></app-menu>
+
+
+<!-- heading (contact) -->
+
+<div class="heading">
+  <div class="container">
+    <h4>Contact us</h4>
+    <b>Let’s Start a Conversation</b>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+  </div>
+</div>
+
+<!-- contact us (contact) -->
+
+<div class="contact_us">
+  <div class="container">
+     <div class="contact_data">
+      <div class="working">
+        <h6>Working hours</h6>
+        <span></span>
+        <p class="work_bold">Monday To Friday</p>
+        <p class="work_bold">9:00 AM to 8:00 PM </p>
+        <p class="work_text">Our Support Team is available 24/7</p>
+      </div>
+      <div class="working">
+        <h6>Contact Us</h6>
+        <span></span>
+        <p class="work_bold">020 7993 2905</p>
+        <p class="work_text">hello@finsweet.com</p>
+      </div>
+     </div>
+  </div>
+</div>
+
+<!-- form (contact) -->
+<div class="form_vall">
+  <div class="container">
+    <form   [formGroup]="form" (ngSubmit)="submit()">
+
+      <div [ngClass]="{invalid: form.get('name')?.touched && form.get('name')?.invalid}" class="form-control">
+        <input type="text" id="name" formControlName="name" placeholder="Full Name">
+        <div *ngIf="form.get('name')?.touched && form.get('name')?.invalid" class="validation">
+          <small  *ngIf="form.get('name')?.errors && form.get('name')required">
+            The last name must be min 6 symbol"
+          </small>
+        </div>
+      </div>
+
+      <div [ngClass]="{invalid: form.get('email')?.touched && form.get('email')?.invalid}" class="form-control">
+        <input type="email" id="email" formControlName="email" placeholder="Email">
+        <div *ngIf="form.get('email')?.touched && form.get('email')?.invalid " class="validation">
+          <small *ngIf="form.get('email')?.errors && (form.get('email')?.dirty || form.get('email')?.touched)">
+            ERRORS_in Email
+          </small>
+        </div>
+      </div>
+
+    
+
+      <div>
+        <select formControlName="select" name="" id="select">
+          <option value="">Query Related</option>
+          <option value=""></option>
+        </select>
+      </div>
+
+      <textarea name="" id="textarea" cols="30" rows="10" placeholder="Message" formControlName="select"></textarea>
+       <button class="form_btn" [disabled]="form.invalid">Send Message</button>
+    </form>
+  </div>
+</div>
+
+
+<!-- footer (contact) -->
+<app-footer></app-footer>
+

@@ -1,0 +1,68 @@
+<app-menu></app-menu>
+
+
+<div class="blog_header">
+  <div class="container">
+    <div class="content_block">
+      <div class="content_one">
+        <h4 class="content_title">Featured Post</h4>
+        <p class="content_title_text">
+          Step-by-step guide to choosing great font pairs
+        </p>
+        <p class="content_data"><span>By John Doe l May 23, 2022 </span></p>
+        <p class="content_text">
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+          dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident.
+        </p>
+        <a class="content_btn" routerLink="/author">Read More ></a>
+      </div>
+
+      <div class="content_two">
+        <img src="assets/img/man-smiling-840996.png" alt="man-smiling-840996" />
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- All blogs -->
+
+<div class="all_blogs">
+  <div class="container">
+    <a routerLink="/category">All posts</a>
+    <div class="all_blogs_divider"></div>
+  </div>
+</div>
+
+<!-- Blogs Cards -->
+
+<div class="blogs_cards">
+  <div class="container">
+    <app-all-post [element]="blogPost"></app-all-post>
+
+    <!-- Pagination -->
+    <div class="pagination">
+      <a> Prev </a>
+      <a> Next </a>
+    </div>
+  </div>
+</div>
+
+<!-- All Categories -->
+
+<div class="all_catagory">
+  <div class="container">
+    <h2 class="all_title">Choose A Catagory</h2>
+      <app-choose-catagory [element]="chooseName"></app-choose-catagory>
+  </div>
+</div>
+
+<!-- Join our team -->
+
+<div class="join_our_team">
+  <div class="container">
+    <app-join-now [element]="joinNew"></app-join-now>
+  </div>
+</div>
+
+<app-footer></app-footer>

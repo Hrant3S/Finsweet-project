@@ -1,0 +1,48 @@
+<app-menu></app-menu>
+
+<!-- blog Category hero (category) -->
+
+<div class="blog_category">
+  <div class="container">
+    <div class="busines">
+      <h2>Business</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+      <a href="#">Blog > Business</a>
+    </div>
+  </div>
+</div>
+
+<!-- Category Section (category) -->
+
+<div class="category">
+  <div class="container">
+    <div class="section_block">
+
+      <div class="category_item">
+          <app-all-post [element]="blogPost"></app-all-post>
+      </div>
+
+      <div class="categories_all">
+        <h5>Categories</h5>
+
+        <app-category-button [element]="chooseName"></app-category-button>
+        
+        <div class="tags_btn">
+          <h5>All Tags</h5>
+          <button class="btn_cl" type="button">Business</button>
+          <button class="btn_cl" type="button">Experience</button>
+          <button class="btn_cl" type="button">Screen</button>
+          <button class="btn_cl" style="margin-left: 0.8rem;" type="button">Technology</button>
+          <button class="btn_cl" type="button">Marketing</button>
+          <button class="btn_cl" style="margin-left: 2.11rem;" type="button">Life</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Footer (category) -->
+
+<app-footer></app-footer>
+

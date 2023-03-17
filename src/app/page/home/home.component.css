@@ -1,0 +1,851 @@
+.images_menu {
+  background: url("/assets/img/Home Hero.png");
+  background-repeat: no-repeat;
+  background-size: 100% 720px;
+  width: 100%;
+  height: 720px;
+}
+.home_block {
+  position: absolute;
+  width: 804px;
+  height: 400px;
+  top: 155px;
+}
+.home_posted {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 15px;
+}
+.home_step {
+  font-family: "Sen";
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: -2px;
+  color: #ffffff;
+}
+.home_title {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ffffff;
+  margin-top: 5px;
+}
+.home_title span {
+  color: #ffd050;
+  display: inline-block;
+}
+
+.home_text {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.home_btn {
+  margin-top: 15px;
+  padding: 16px 48px;
+  width: 204px;
+  height: 56px;
+  background: #ffd050;
+  border: none;
+  border-radius: 5px;
+  font-family: "Sen";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  align-items: center;
+  color: #232536;
+  transition: all 0.3s;
+}
+.home_btn:hover {
+  background: darkturquoise;
+  cursor: progress;
+}
+
+.home_btn a {
+  text-decoration: none;
+}
+.home_btn span {
+  color: rgb(237, 70, 10);
+}
+
+/* featured_post and all post---------------block2*/
+
+.featured_post {
+  width: 100%;
+  padding-top: 7.5rem;
+}
+
+.featured_block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* align-items: center; */
+  gap: 2rem;
+  height: 804px;
+}
+
+/* Featured Post */
+
+.feature_post_block {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.featured_titleOne {
+  font-family: "Sen";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -2px;
+  color: #232536;
+}
+
+.feat_border {
+  border: 1px solid #dddee198;
+  margin-top: 1rem;
+}
+.feat_post_allblock {
+  margin-top: 3rem;
+}
+
+/* All Posts  and Featured Post*/
+
+.featured_titleTwo {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -2px;
+  color: #232536;
+}
+.view_btn {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #592ea9;
+  display: inline-block;
+  transform: translate(13rem, 0rem);
+}
+
+/* block ----3 About us & our mision and color-liner */
+.about_mision {
+  width: 100%;
+  padding-top: 9%;
+}
+
+.about_mision_block {
+  display: flex;
+  width: 1280px;
+  height: 500px;
+  background: #f4f0f8;
+}
+
+.about_block {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.about_us {
+  widows: 40%;
+  width: 516px;
+  height: 248.73px;
+}
+.about_us h4 {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #232536;
+}
+.text_weight {
+  font-family: "Sen";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  color: #232536;
+}
+.text_lorem {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #6d6e76;
+}
+.about_us a {
+  font-family: "Sen";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: #592ea9;
+}
+
+/*our mision  --- */
+.our_mision {
+  widows: 40%;
+  width: 516px;
+  height: 248.73px;
+}
+.our_mision h4 {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #232536;
+}
+.text_mision {
+  font-family: "Sen";
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 40px;
+  color: #232536;
+}
+.text_lorem {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #6d6e76;
+}
+
+/* color liner */
+.color_line span:nth-child(1) {
+  position: absolute;
+  width: 197px;
+  height: 23px;
+  left: 64%;
+  background: #592ea9;
+  width: 426px;
+}
+.color_line span:nth-child(2) {
+  position: absolute;
+  width: 870px;
+  height: 23px;
+  background: #ffd050;
+}
+.color_line span:nth-child(3) {
+  position: absolute;
+  width: 282px;
+  height: 23px;
+  background: rgb(255, 255, 255);
+}
+
+/* Coose a category ___block___5 */
+
+.choose_catagory {
+  width: 100%;
+  background: white;
+  padding: 6rem 0rem;
+}
+
+.choo_title {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -2px;
+  color: #232536;
+  text-align: center;
+}
+
+/* Special post----block6 */
+
+.special_post {
+  width: 100%;
+  background-color: white;
+  padding-top: 65px;
+}
+
+.img_post {
+  background: url("../../../assets/img/close-up.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 949px;
+  height: 705px;
+}
+
+.spec_btn {
+  position: absolute;
+  width: 204px;
+  height: 56px;
+  left: 42%;
+  margin-top: 5px;
+  background: #ffd050;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 2px 2px 4px;
+  font-family: "Sen";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.special_started {
+  width: 600px;
+  height: 584px;
+  background: #ffffff;
+  transform: translate(94%, 21%);
+  border: 1px solid transparent;
+}
+
+.spec_m {
+  padding: 80px;
+}
+
+.spec_m h4 {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #45485f;
+}
+.spec_big_text {
+  font-family: "Sen";
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 34px;
+  color: #232536;
+  margin: 20px 0px;
+}
+.spec_litl_text {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #6d6e76;
+  margin: 20px 0px;
+}
+.spec_btn_2 {
+  width: 269px;
+  height: 56px;
+  background: #ffd050;
+  font-family: "Sen";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #232536;
+  margin: 20px 0px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 2px 2px 4px;
+  margin-top: 70px;
+}
+
+/* List of authors----_block7 */
+
+.list_authors {
+  width: 100%;
+}
+
+.list_autors {
+  width: 100%;
+  background-color: white;
+  padding-top: 65px;
+  padding: 4rem 0rem;
+}
+.auto_title {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -2px;
+  color: #232536;
+  text-align: center;
+  padding: 2rem 0rem;
+  cursor: pointer;
+}
+
+/* Logo component---block8 */
+
+.logo_component {
+  width: 100%;
+  height: 160px;
+  background-color: white;
+  padding-top: 65px;
+}
+
+.logo_style {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo_component_style_2 img {
+  transition: 0.3s;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.logo_component_style_2 img:hover {
+  background-color: darkseagreen;
+}
+
+/* Testimonials -- - block9 */
+
+.testimonials {
+  width: 100%;
+  background-color: white;
+  padding-top: 65px;
+}
+
+.testimonials_bg_color {
+  width: 100%;
+  height: 464px;
+  background: #fbf6ea;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+.testimonials_1 {
+  width: 38%;
+  margin-top: -6rem;
+}
+.testimonials_1 h5 {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #232536;
+}
+
+.testimonials_1_textx1 {
+  font-family: "Sen";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -2px;
+  color: #232536;
+  padding-top: 8px;
+}
+.testimonials_1_textx2 {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  color: #232536;
+}
+.all {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 40%;
+  margin-top: 2rem;
+}
+.all_text {
+  font-family: "Sen";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #232536;
+}
+.testimo_name {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 8rem;
+}
+.testimo_name h4 {
+  font-family: "Sen";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #232536;
+  transform: translate(17px, -7px);
+}
+
+.testimo_name p {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #6d6e76;
+  transform: translate(-177px, 22px);
+}
+
+.str_img {
+  transform: translate(50px, 128px);
+}
+.str_img_one {
+  margin-left: 10px;
+}
+
+.testimonials_liner {
+  width: 400px;
+  height: 0px;
+  opacity: 0.4;
+  border: 1px solid #6d6e76;
+  transform: translate(77%, -49px) rotate(90deg);
+}
+
+/* Join our team - - - block10 */
+.join_our_team {
+  width: 100%;
+  background-color: white;
+  padding: 4rem 0rem;
+}
+
+/* @media screen and (min-width: 1200px) {
+  .about_mision_block {
+    display: flex;
+    width: 1280px;
+    height: 500px;
+    background: #f4f0f8;
+  }
+} */
+@media screen and (max-width: 1200px) {
+  .about_mision_block {
+    display: flex;
+    width: 1061px;
+    height: 500px;
+    background: #f4f0f8;
+  }
+  .color_line span:nth-child(1) {
+    position: absolute;
+    width: 198px;
+    height: 23px;
+    left: 81.2%;
+    background: #592ea9;
+  }
+  .about_us {
+    widows: 40%;
+    width: 300px;
+    height: 248.73px;
+  }
+  .text_weight {
+    font-size: 22px;
+    line-height: 25px;
+  }
+  .text_mision {
+    font-size: 20px;
+    line-height: 22px;
+  }
+  .choose_block {
+    display: flex;
+    flex-direction: row;
+    gap: 3.4rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .img_post {
+    background-size: cover;
+    width: 532px;
+    height: auto;
+  }
+  .special_started {
+    width: 600px;
+    height: 584px;
+    background: #ffffff;
+    transform: translate(70%, 16%);
+    border: 1px solid transparent;
+  }
+  .authors_block_list {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+  }
+}
+@media screen and (max-width: 1080px) {
+  .about_mision_block {
+    width: 840px;
+  }
+  .color_line span:nth-child(2) {
+    width: 720px;
+  }
+  .color_line span:nth-child(1) {
+    width: 198px;
+    height: 23px;
+    left: 83.2%;
+  }
+  .img_post {
+    background-size: cover;
+    width: 532px;
+    height: auto;
+  }
+  .special_started {
+    width: 600px;
+    height: 584px;
+    background: #ffffff;
+    transform: translate(70%, 16%);
+    border: 1px solid transparent;
+  }
+  .special_started {
+    transform: translate(25%, 16%);
+  }
+}
+@media screen and (max-width: 992px) {
+  .home_step {
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -1px;
+  }
+  .feat_post_allblock {
+    margin-top: 5rem;
+  }
+  .view_btn {
+    transform: translate(6rem, 0rem);
+  }
+  .images_menu {
+    background-size: auto;
+    width: 100%;
+    height: 720px;
+  }
+  .about_mision_block {
+    display: flex;
+    width: 820px;
+    height: 500px;
+    background: #f4f0f8;
+  }
+  .color_line span:nth-child(3) {
+    display: none;
+  }
+  .color_line span:nth-child(2) {
+    width: 612px;
+  }
+  .color_line span:nth-child(1) {
+    width: 209px;
+    left: 71%;
+  }
+}
+@media screen and (max-width: 908px) {
+  .color_line span:nth-child(1) {
+    width: 223px;
+  }
+  .color_line {
+    display: none;
+  }
+  .logo_style {
+    gap: 2rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .als_bg_color {
+    width: 90%;
+  }
+  .testimo_name p {
+    transform: translate(68px, -25px);
+  }
+  .testimonials_liner {
+    transform: translate(35%, -93px) rotate(90deg);
+  }
+  .str_img {
+    transform: translate(47px, -28px);
+  }
+}
+@media screen and (max-width: 890px) {
+  .color_line {
+    display: none;
+  }
+  .our_mision {
+    width: 300px;
+    height: 248.73px;
+  }
+  .about_mision_block {
+    width: 685px;
+    margin: auto;
+  }
+  .logo_style {
+    gap: 2rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 786px) {
+  .home_block {
+    width: 650px;
+  }
+  .home_step {
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -1px;
+  }
+  .view_btn {
+    transform: translate(-4rem, 4rem);
+  }
+  .featured_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    height: auto;
+  }
+  .about_mision_block {
+    width: 685px;
+  }
+  .color_line span:nth-child(1) {
+    width: 215px;
+    left: 68.2%;
+  }
+  .color_line span:nth-child(2) {
+    width: 480px;
+  }
+}
+
+@media screen and (max-width: 688px) {
+  .images_menu {
+    background-size: cover;
+    width: 100%;
+    height: 589px;
+  }
+  .featured_block {
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    height: auto;
+  }
+  .about_mision_block {
+    width: 610px;
+  }
+  .color_line span:nth-child(2) {
+    width: 395px;
+  }
+  .color_line span:nth-child(1) {
+    width: 215px;
+    left: 63.2%;
+  }
+}
+
+@media screen and (max-width: 626px) {
+  .home_block {
+    width: 480px;
+  }
+  .view_btn {
+    transform: translate(7rem, 0rem);
+  }
+  .featured_titleTwo {
+    transform: translate(10px, 10px);
+  }
+  .featured_block {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    height: auto;
+    align-items: baseline;
+  }
+  .about_mision_block {
+    width: 540px;
+  }
+  .color_line span:nth-child(2) {
+    width: 355px;
+  }
+  .color_line span:nth-child(1) {
+    width: 184px;
+    left: 63.2%;
+  }
+}
+
+@media screen and (max-width: 574px) {
+  .color_line {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 476px) {
+  .home_block {
+    width: 350px;
+  }
+  .featured_titleTwo {
+    transform: translate(43px, 10px);
+  }
+  .post_blockes {
+    padding: 20px 5px;
+  }
+  .about_mision_block {
+    width: 340px;
+  }
+  .about_us {
+    width: 290px;
+    height: 248.73px;
+  }
+  .our_mision {
+    width: 290px;
+    height: 248.73px;
+  }
+  .about_block {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 2rem;
+  }
+  .text_mision {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .text_weight {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .text_lorem {
+    font-size: 11px;
+    line-height: 21px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .home_block {
+    width: 280px;
+  }
+  .home_text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+  }
+  .featured_titleTwo {
+    transform: translate(0px, 0px);
+  }
+  .feat_post_allblock {
+    margin-top: 0rem;
+  }
+}
+@media screen and (max-width: 307px) {
+  .home_block {
+    width: 228px;
+  }
+  .home_step {
+    font-size: 29px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 286px) {
+}

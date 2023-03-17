@@ -1,0 +1,30 @@
+<header class="nav_bar">
+  <div class="container_admin">
+    <div class="f-l">
+      <div class="dropdown_menu">
+        <div class="logo_admin">
+          <h2>H<span>oM</span>e</h2>
+          <img routerLink="/home" src="/assets/img/avataaars.png" alt="" />
+        </div>
+        <ul>
+          <li>
+            <a routerLink="" routerLinkActive="active">Dashboard</a>
+          </li>
+          <li>
+            <a routerLink="post-all" routerLinkActive="active">Posts</a>
+          </li>
+          <li>
+            <a routerLink="category-n" routerLinkActive="active">Catagory</a>
+          </li>
+          <li><a routerLink="authors-n" routerLinkActive="active">Authors</a></li>
+          <li>
+            <a (click)="logout()" >Logout</a>
+          </li>
+        </ul>
+      </div>
+      <div class="auto-m">
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+  </div>
+</header>

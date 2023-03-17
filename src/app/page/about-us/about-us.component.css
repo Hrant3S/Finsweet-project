@@ -1,0 +1,194 @@
+/* <!-- about us header (about us) --> */
+
+.about_us_header {
+  width: 100%;
+}
+.us_header {
+  display: flex;
+  width: 100%;
+  height: 356px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.us_header_own {
+  position: absolute;
+  width: 624px;
+  height: 356px;
+  left: 189px;
+  top: 160px;
+  background: #ffffff;
+  padding: 5rem;
+}
+.us_header_own h5 {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #232536;
+}
+.us_header_own p {
+  font-family: "Sen";
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: -2px;
+}
+.us_header_text {
+  position: absolute;
+  width: 477px;
+  height: 112px;
+  right: 118px;
+  top: 262px;
+}
+.us_header_text p {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #4c4c4c;
+}
+
+/* @@@@@@@@@@@overview */
+
+.overview {
+  widows: 100%;
+}
+.over_img {
+  background: url("/assets/img/Overview.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+}
+
+/* <!-- mision_vision (about us) --> */
+
+.mision_vision {
+  width: 100%;
+}
+.our_vis_mision {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 441px;
+  background: #f4f0f8;
+}
+
+.mision {
+  width: 41%;
+  height: 249px;
+}
+
+.mision h4 {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #232536;
+}
+.mision_taitle {
+  font-family: "Sen";
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: -1px;
+  color: #232536;
+  padding: 0.7rem 0rem;
+}
+.mision_text {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #6d6e76;
+}
+
+/* <!-- know more  about our team (about us) --> */
+
+.more_about {
+  width: 100%;
+}
+
+.team_creatives {
+  width: 1280px;
+  height: 570px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.creatives {
+  width: 519px;
+  height: 316px;
+}
+.creatives h3 {
+  font-family: "Sen";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -2px;
+  color: #232536;
+}
+.creatives_title {
+  font-family: "Sen";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #232536;
+  padding: 0.8rem 0rem;
+}
+.creatives_text {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #232536;
+}
+
+.creatives_img {
+  width: 681px;
+  height: 480px;
+}
+
+/* <!-- list of strated (about us) --> */
+/* List of authors----_block7 */
+.list_authors {
+  width: 100%;
+}
+
+.list_autors {
+  width: 100%;
+  background-color: white;
+  padding-top: 65px;
+  padding: 4rem 0rem;
+
+}
+.auto_title {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -2px;
+  color: #232536;
+  text-align: center;
+  padding: 2rem 0rem;
+}
+
+/* Join our team - - - */
+
+.join_our_team {
+  width: 100%;
+  background-color: white;
+  padding: 4rem 0rem;
+}

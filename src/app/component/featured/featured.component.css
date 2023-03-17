@@ -1,0 +1,148 @@
+.post_blockes {
+  padding: 30px 20px;
+}
+
+.featured_img {
+  /* background: url("/assets/img/white.png"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 669px;
+  height: 352px;
+}
+
+.feat_data {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #4c4c4c;
+  padding-top: 12px;
+}
+
+.feat_data span {
+  color: #592ea9;
+}
+
+.feat_text {
+  font-family: "Sen";
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 40px;
+  color: #232536;
+  padding: 8px 0px;
+}
+
+.feat_text2 {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #6d6e76;
+  padding: 10px 0px;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+.feat_btn {
+  width: 204px;
+  height: 56px;
+  background: #ffd050;
+  font-family: "Sen";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #232536;
+  padding: 15px 0px;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1200px) {
+}
+@media screen and (max-width: 1200px) {
+  .featured_img {
+    width: 500px;
+    height: 302px;
+  }
+  .featured_img  img {
+    width: 500px;
+    height: auto;
+  }
+}
+@media screen and (max-width: 1110px) {
+  .featured_img {
+    width: 450px;
+    height: 302px;
+  }
+  .featured_img  img {
+    width: 440px;
+    height: auto;
+  }
+}
+@media screen and (max-width: 992px) {
+  .featured_img {
+    width: 300px;
+    height: 180px;
+  }
+  .featured_img img {
+    width: 290px;
+    height: auto;
+  }
+  .post_text_fe {
+  }
+}
+
+@media screen and (max-width: 786px) {
+}
+
+@media screen and (max-width: 688px) {
+}
+
+@media screen and (max-width: 626px) {
+}
+
+@media screen and (max-width: 476px) {
+  .featured_img {
+    width: 290px;
+    height: 160px;
+  }
+  .featured_img img {
+    width: 280px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .post_blockes {
+    padding: 15px 8px;
+  }
+  .featured_img {
+    width: 255px;
+    height: 135px;
+  }
+  .featured_img img {
+    width: 240px;
+    height: auto;
+  }
+  .feat_text {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .feat_text2 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .feat_btn {
+    width: 180px;
+    height: 47px;
+    font-size: 18px;
+    padding: 12px;
+  }
+}
+@media screen and (max-width: 307px) {
+}
+
+@media screen and (max-width: 286px) {
+}

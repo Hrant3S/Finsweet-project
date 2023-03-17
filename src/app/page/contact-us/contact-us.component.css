@@ -1,0 +1,171 @@
+/* <!-- heading (contact) --> */
+
+.heading {
+  width: 768px;
+  height: 176px;
+  text-align: center;
+  margin: 5rem auto;
+}
+.heading h4 {
+  font-family: "Inter";
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #232536;
+}
+.heading b {
+  font-family: "Sen";
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  letter-spacing: -2px;
+  color: #232536;
+  margin: 1rem 0rem;
+  display: block;
+}
+.heading p {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #6d6e76;
+}
+
+/* <!-- contact us (contact) --> */
+
+.contact_us {
+  width: 100%;
+}
+.contact_data {
+  width: 768px;
+  height: 240px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  background: #592ea9;
+  margin: auto;
+}
+.working {
+  width: 294px;
+  height: 144px;
+}
+.working h6 {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  opacity: 0.6;
+}
+.working span {
+  width: 294px;
+  height: 0px;
+  background: #ffffff;
+  opacity: 0.1;
+  border: 1px solid #ffffff;
+  display: block;
+  margin: 1rem 0rem;
+}
+.work_bold {
+  font-family: "Sen";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+  color: #ffffff;
+  /* padding: 0.3rem 0rem;	 */
+}
+.work_text {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ffffff;
+  opacity: 0.6;
+}
+
+/* <!-- form (contact) --> */
+
+.form_vall {
+  width: 100%;
+}
+form {
+  text-align: center;
+}
+form input {
+  width: 768px;
+  height: 76px;
+  border: 1px solid rgba(109, 110, 118, 0.5);
+  border-radius: 2px;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #232536;
+  padding: 0rem 2rem;
+  margin: 1rem 0rem;
+}
+
+select {
+  width: 768px;
+  height: 76px;
+  border: 1px solid rgba(109, 110, 118, 0.5);
+  border-radius: 2px;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #232536;
+  padding: 0rem 2rem;
+}
+
+form textarea {
+  width: 768px;
+  height: 144px;
+  border: 1px solid rgba(109, 110, 118, 0.5);
+  border-radius: 2px;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #232536;
+  padding: 2rem 2rem;
+  margin: 1rem 0rem;
+}
+.form_btn {
+  width: 768px;
+  height: 64px;
+  font-family: "Sen";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #232536;
+  background: #ffd050;
+  text-align: center;
+  transition: all 0.3s;
+  margin-bottom: 7rem;
+  cursor: pointer;
+}
+.form_btn:hover {
+  background: #53ee92;
+}
+
+/* form validators */
+input.ng-pristine.ng-untouched {
+  border: 2px solid blue;
+}
+input.ng-invalid.ng-dirty {
+  border: 2px solid red;
+}
+input.ng-valid.ng-dirty {
+  border: 2px solid green;
+}
+input {
+  outline: none;
+}

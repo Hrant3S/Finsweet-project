@@ -1,0 +1,46 @@
+/* Join our team - - - block10 */
+
+.join_team {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.join_title {
+  width: 414px;
+  height: 96px;
+  font-family: "Sen";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: -2px;
+  color: #232536;
+}
+.join_text {
+  width: 405px;
+  height: 56px;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #6d6e76;
+  margin: 20px 0px;
+}
+
+.join_btn {
+  width: 174px;
+  height: 56px;
+  background: #ffd050;
+  font-family: "Sen";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #232536;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 2px 1px 3px;
+  margin: 10px;
+}

@@ -1,0 +1,21 @@
+<div class="authors_block_list" routerLink="/about-us">
+  <div class="auto_list_1" *ngFor="let itemList of element">
+    <img class="icons_auto" src="{{ itemList?.img }}" alt="man_icon" />
+    <h5>{{ itemList?.title }}</h5>
+    <p>{{ itemList?.text }}</p>
+    <div class="social_icons_list">
+      <a target="_blank" href="https://www.facebook.com/"
+        ><img src="{{ itemList?.face }}" alt="facebook"
+      /></a>
+      <a target="_blank" href="https://www.twitter.com/"
+        ><img src="{{ itemList?.twitt }}" alt="twitter"
+      /></a>
+      <a target="_blank" href="https://www.instagram.com/"
+        ><img src="{{ itemList?.insta }}" alt="instagram"
+      /></a>
+      <a target="_blank" href="https://www.linkedin.com/"
+        ><img src="{{ itemList?.linke }}" alt="linkedin"
+      /></a>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,53 @@
+.authors_block_list {
+  width: 100%;
+  /* height: 420px; */
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  transition: all 0.3s;
+  cursor: grab;
+}
+
+.auto_list_1 {
+  background: #f4f4f4;
+  display: flex;
+  width: 24%;
+  height: 324px;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.auto_list_1:hover {
+  background: #fbf6ea;
+}
+
+.auto_list_1 h5 {
+  font-family: "Sen";
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: -1px;
+  color: #232536;
+}
+.auto_list_1 p {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #6d6e76;
+  margin: 0.5rem 0rem;
+}
+.icons_auto {
+  padding: 1rem 0rem;
+}
+.social_icons_list a {
+  margin: 1rem 0.7rem;
+  cursor: pointer;
+}
+

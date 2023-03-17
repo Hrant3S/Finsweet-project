@@ -1,0 +1,76 @@
+/* <!-- privacy policy header (privacy policy) --> */
+
+.privacy{
+	width: 100%;
+	height: 256px;
+	background: #F4F0F8;
+	padding: 4rem 0rem;
+	text-align: center;
+}
+.privacy h2{
+	font-family: 'Sen';
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 64px;
+	text-align: center;
+	letter-spacing: -2px;
+	color: #232536;
+}
+.privacy p{
+	font-family: 'Inter';
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 28px;
+	text-align: center;
+	color: #232536;
+	opacity: 0.6;
+}
+
+/* <!-- body content (privacy policy) --> */
+.body_content{
+	width: 100%;
+}
+.contacte_text{
+	width: 768px;
+	height: 1280px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: auto;
+}
+
+.text_title{
+	font-family: 'Sen';
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 64px;
+	letter-spacing: -2px;
+	color: #232536;
+	padding: 1.3rem 0rem;
+}
+.text_title2{
+	font-family: 'Sen';
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 48px;
+	letter-spacing: -2px;
+	color: #232536;
+	padding: 1.5rem 0rem;
+}
+.text1{
+	font-family: 'Inter';
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 28px;
+	color: #4C4C4C;
+	padding: 1.3rem 0rem;
+}
+.text2{
+	font-family: 'Inter';
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 28px;
+	color: #4C4C4C;
+	padding: 1.3rem 0rem;
+}

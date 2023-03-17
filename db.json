@@ -1,0 +1,227 @@
+{
+  "chooseName": [
+    {
+      "id": "1",
+      "img": "assets/img/1.png",
+      "title": "Business",
+      "categorytext": "Lorem ipsum dolor sit, amet consectetur adipisicing elit."
+    },
+    {
+      "id": "2",
+      "img": "assets/img/2.png",
+      "title": "Startup",
+      "categorytext": "Lorem ipsum dolor sit, amet consectetur adipisicing elit."
+    },
+    {
+      "id": "3",
+      "img": "assets/img/3.png",
+      "title": "Economy",
+      "categorytext": "Lorem ipsum dolor sit, amet consectetur adipisicing elit."
+    },
+    {
+      "id": "4",
+      "img": "assets/img/4.png",
+      "title": "Technology",
+      "categorytext": "Lorem ipsum dolor sit, amet consectetur adipisicing elit."
+    },
+    {
+      "id": "5",
+      "img": "assets/img/4.png",
+      "title": "Technology",
+      "categorytext": "Lorem ipsum dolor sit, amet consectetur adipisicing elit."
+    }
+  ],
+
+  "listAuthors": [
+    {
+      "id": 1,
+      "img": "assets/img/man_1.png",
+      "title": "Floyd Miles",
+      "text": "Content Writer @Company",
+      "face": "assets/img/icons1.png",
+      "twitt": "assets/img/icons2.png",
+      "insta": "assets/img/icons3.png",
+      "linke": "assets/img/icons4.png"
+    },
+    {
+      "id": 2,
+      "img": "assets/img/woman-.png",
+      "title": "Dianne Russell",
+      "text": "Content Writer @Company",
+      "face": "assets/img/icons1.png",
+      "twitt": "assets/img/icons2.png",
+      "insta": "assets/img/icons3.png",
+      "linke": "assets/img/icons4.png"
+    },
+    {
+      "id": 3,
+      "img": "assets/img/woman-2.png",
+      "title": "Jenny Wilson",
+      "text": "Content Writer @Company",
+      "face": "assets/img/icons1.png",
+      "twitt": "assets/img/icons2.png",
+      "insta": "assets/img/icons3.png",
+      "linke": "assets/img/icons4.png"
+    },
+    {
+      "id": 4,
+      "img": "assets/img/women-3.png",
+      "title": "Leslie Alexander",
+      "text": "Content Writer @Company",
+      "face": "assets/img/icons1.png",
+      "twitt": "assets/img/icons2.png",
+      "insta": "assets/img/icons3.png",
+      "linke": "assets/img/icons4.png"
+    },
+    {
+      "id": 5,
+      "img": "assets/img/listAutor5.png",
+      "title": "Guy Hawkins",
+      "text": "Content Writer @Company",
+      "face": "assets/img/icons1.png",
+      "twitt": "assets/img/icons2.png",
+      "insta": "assets/img/icons3.png",
+      "linke": "assets/img/icons4.png"
+    },
+    {
+      "id": 6,
+      "img": "assets/img/listAutor6.png",
+      "title": "Eleanor Pena",
+      "text": "Content Writer @Company",
+      "face": "assets/img/icons1.png",
+      "twitt": "assets/img/icons2.png",
+      "insta": "assets/img/icons3.png",
+      "linke": "assets/img/icons4.png"
+    },
+    {
+      "id": 7,
+      "img": "assets/img/listAutor7.png",
+      "title": "Robert Fox",
+      "text": "Content Writer @Company",
+      "face": "assets/img/icons1.png",
+      "twitt": "assets/img/icons2.png",
+      "insta": "assets/img/icons3.png",
+      "linke": "assets/img/icons4.png"
+    },
+    {
+      "id": 8,
+      "img": "assets/img/listAutor8.png",
+      "title": "Jacob Jones",
+      "text": "Content Writer @Company",
+      "face": "assets/img/icons1.png",
+      "twitt": "assets/img/icons2.png",
+      "insta": "assets/img/icons3.png",
+      "linke": "assets/img/icons4.png"
+    },
+    {
+      "id": 9,
+      "img": "assets/img/man_1.png",
+      "title": "Floyd Miles",
+      "text": "Content Writer @Company",
+      "face": "assets/img/icons1.png",
+      "twitt": "assets/img/icons2.png",
+      "insta": "assets/img/icons3.png",
+      "linke": "assets/img/icons4.png"
+    }
+  ],
+  "blogPost": [
+    {
+      "id": 1,
+      "img": "assets/img/two-w.png",
+      "title": "Startup",
+      "text": "Design tips for designers that cover everything you need",
+      "textUs": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "dataText": " l May 23, 2022",
+      "dataSpanText": "John Doe"
+    },
+    {
+      "id": 2,
+      "img": "assets/img/photo-of-woman.png",
+      "title": "BUSINESS",
+      "text": "How to build rapport with your web design clients",
+      "textUs": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "dataText": " l May 23, 2022",
+      "dataSpanText": "John Doe"
+    },
+    {
+      "id": 3,
+      "img": "assets/img/photo-of.png",
+      "title": "Startup",
+      "text": "Logo design trends to avoid in 2022",
+      "textData": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "dataText": " l May 23, 2022",
+      "dataSpanText": "John Doe"},
+    {
+      "id": 4,
+      "img": "assets/img/photo-of-people.png",
+      "title": "TECHNOLOGY",
+      "text": "8 Figma design systems you can download for free today",
+      "textUs": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "dataText": " l May 23, 2022",
+      "dataSpanText": "John Doe"
+    },
+    {
+      "id": 5,
+      "img": "assets/img/two-w.png",
+      "title": "ECONOMY",
+      "text": "Font sizes in UI design: The complete guide to follow",
+      "textUs": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "dataText": " l May 23, 2022",
+      "dataSpanText": "John Doe"
+    },
+    {
+      "id": "6",
+      "img": "assets/img/category.png",
+      "title": "Business",
+      "text": "Top 6 free website mockup tools 2022",
+      "textUs": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec.",
+      "dataText": " l May 23, 2022",
+      "dataSpanText": "John Doe"
+    },
+    {
+      "id": "7",
+      "img": "assets/img/category.png",
+      "title": "Business",
+      "text": "Top 6 free website mockup tools 2022",
+      "textUs": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec.",
+      "dataText": " l May 23, 2022",
+      "dataSpanText": "John Doe"
+    },
+    {
+      "id": "8",
+      "img": "assets/img/category.png",
+      "title": "Business",
+      "text": "Top 6 free website mockup tools 2022",
+      "textUs": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec.",
+      "dataText": " l May 23, 2022",
+      "dataSpanText": "John Doe"
+    },
+    {
+      "id": "9",
+      "img": "assets/img/category.png",
+      "title": "Business",
+      "text": "8Top 6 free website mockup tools 2022",
+      "textUs": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec.",
+      "dataText": " l May 23, 2022",
+      "dataSpanText": "John Doe"
+    },
+    {
+      "id": "10",
+      "img": "assets/img/white.png",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor.",
+      "textUs": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "dataText": " l May 23, 2022",
+      "dataSpanText": "John Doe"
+    }
+  ],
+  "featPost": [
+    {
+      "id": 1,
+      "img": "assets/img/white.png",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor.",
+      "textUs": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "dataText": " l May 23, 2022",
+      "dataSpanText": "John Doe"
+    }
+  ]
+}

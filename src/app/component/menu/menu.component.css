@@ -1,0 +1,167 @@
+header {
+  width: 100%;
+  background: #232536;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 80px;
+}
+
+/* check_menu Burger menu */
+
+#check_menu{
+  display: none;
+  position: absolute;
+  top: 11px;
+  right: 35px;
+  width: 60px;
+  height: 60px;
+}
+.click_menu{
+  display: none;
+  position: absolute;
+  width: 30px;
+  height: 50px;
+  top: 8px;
+  right: 3%;
+  cursor: pointer;
+  color: white;
+  line-height: 25px;
+  transition: .5s all;
+}
+.burger_line{
+  position: absolute;
+  top: 24px;
+  right: 22px;
+  width: 37px;
+  height: 3px;
+  background-color: #ffffff;
+  transition: .5s all;
+  /* display: none; */
+}
+.second, .third{
+  top: 34px
+}
+.fourth{
+  top: 44px
+}
+
+#check_menu:checked ~ .click_menu .first{
+  display: none;
+}
+#check_menu:checked ~ .click_menu .second{
+  transform: rotate(45deg);
+}
+#check_menu:checked ~ .click_menu .third{
+  transform: rotate(-45deg);
+}
+#check_menu:checked ~ .click_menu .fourth{
+  display: none;
+}
+
+/* Links Menu style */
+.link_list {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  transition: .5s all;
+
+}
+.link_list ul {
+  display: flex;
+  margin: 0px 25px;
+}
+.link_list ul li {
+  list-style-type: none;
+}
+
+.link_list ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  margin: 0px 10px;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: Left;
+  border-radius: 5px;
+  padding: 5px;
+}
+.link_list ul li a:hover {
+  color: aquamarine;
+  padding: 5px;
+}
+.active {
+  background-color: chocolate;
+  color: rgb(10, 10, 10);
+}
+
+.button_link {
+  width: 179px;
+  height: 56px;
+  padding: 16px, 48px, 16px, 48px;
+  box-shadow: inset;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: "Sen";
+  font-weight: Bold;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  transition: .5s all;
+}
+
+.button_link:hover {
+  background: chocolate;
+  color: rgb(113, 176, 239);
+  box-shadow: 1px 2px 3px;
+}
+
+@media screen and (max-width: 1120px) {
+  
+}
+
+@media screen and (max-width: 992px) {
+  .link_list{
+    position: absolute;
+    left: 0%;
+    top: -100%;
+    border-radius: 5px;
+    padding: 5px;
+    background: #232536;
+    width: 250px;
+    height: 500px;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    transition:.5s all;
+  }
+  .link_list ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  li{
+    padding-top: 1.5rem;
+  }
+  .click_menu{
+	  display: block;
+  }
+  .button_link{
+	  display: block;
+    margin: 1.5rem;
+  }
+  #check_menu:checked ~ .link_list{
+    display: block;
+    left: 0;
+    top: 10%;
+    transition:.5s all;
+  }
+}

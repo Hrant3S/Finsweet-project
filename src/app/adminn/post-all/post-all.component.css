@@ -1,0 +1,103 @@
+.table_m {
+  width: 100%;
+  margin: auto;
+}
+.ds-fl{
+  width: 50%;
+}
+.mat-mdc-form-field {
+  font-size: 18px;
+  width: 55%;
+}
+.mat-mdc-table {
+  table-layout: auto;
+  white-space: normal;
+  background: radial-gradient(black, transparent);
+}
+.form_tb {
+  position: absolute;
+  top: 2px;
+  left: 35%;
+  width: 450px;
+  text-align: center;
+  background-color: rgb(255 255 255);
+  box-shadow: 1px 2px 5px;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 1px 2px 5px;
+}
+.form_tb input {
+  width: 250px;
+  height: 50px;
+  border-radius: 10px;
+  margin-bottom: 35px;
+  font-size: 18px;
+  font-family: serif;
+  padding: 0rem 1rem;
+}
+.form_tb label {
+  font-size: 18px;
+  color: coral;
+  text-transform: uppercase;
+  margin: 35px;
+}
+.form_tb button {
+  width: 100px;
+  height: 30px;
+  margin: 1rem;
+  font-size: 14px;
+  font-family: initial;
+  font-weight: 400;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 1rem
+}
+section {
+  display: table;
+  margin-bottom: 1rem;
+}
+.mat-elevation-z8{
+  /* width: 85%; */
+  margin: auto;
+}
+.example-label {
+  display: table-cell;
+  font-size: 14px;
+  margin-left: 8px;
+  min-width: 120px;
+}
+
+.example-button-row {
+  display: table-cell;
+  max-width: 600px;
+  display: table-cell;
+  max-width: 600px;
+  background: rgb(21 22 21 / 57%);
+  width: 150px;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+.example-button-row:hover{
+  background: #130d0a;
+}
+.example-button-row .mat-mdc-button-base {
+  color: bisque;
+  font-size: 20px;
+  font-family: serif;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 25px;
+}
+
+.example-flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.example-button-container {
+  position: absolute;
+  top: 1%;
+  left: 90%;
+}

@@ -1,0 +1,21 @@
+.cate_btn{
+	width: 296px;
+	height: 96px;
+	border: 1.5px solid #C1C1C3;
+	margin: 2rem 0rem;
+	padding: 1rem;
+}
+.cate_btn:hover{
+	background:  #FFD050;
+}
+.cate_btn span{
+	font-family: 'Sen';
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 40px;
+	letter-spacing: -1px;
+	color: #232536;
+	transform: translate(1rem, -1rem);
+	display: inline-block;
+	cursor: pointer;
+}

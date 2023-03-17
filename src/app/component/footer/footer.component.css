@@ -1,0 +1,137 @@
+/* footer Content -----block 11 */
+
+footer {
+  width: 100%;
+  height: 580px;
+  background: #232536;
+  padding-top: 65px;
+}
+
+.navbar_footer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 18px 0px;
+}
+.link_list_footer {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.link_list_footer ul {
+  display: flex;
+  margin: 0px 5px;
+}
+.link_list_footer ul li {
+  list-style-type: none;
+}
+.link_list_footer ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  margin: 0px 10px;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  line-height: 145%;
+  text-align: Left;
+  vertical-align: Center;
+  border-radius: 5px;
+  padding: 5px;
+  transition: all 0.3s;
+}
+
+.link_list_footer ul li a:hover {
+  background-color: chocolate;
+  color: rgb(10, 10, 10);
+}
+
+.footer_subscribe {
+  width: 100%;
+  height: 256px;
+  background: #2e3040;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+}
+.footer_subscribe_1 {
+  width: 40%;
+}
+.subscript_text {
+  font-family: "Sen";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -2px;
+  color: #ffffff;
+}
+form label input {
+  width: 323px;
+  height: 56px;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #6d6e76;
+  border: 1px solid #4c4c4c;
+}
+form button {
+  width: 179px;
+  height: 56px;
+  background: #ffd050;
+  font-family: "Sen";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  align-items: center;
+  color: #232536;
+  cursor: pointer;
+  transition: all 0.3s;
+  box-shadow: 2px 2px 4px;
+  border-radius: 8px;
+}
+form button:hover {
+  background: #53ee92;
+}
+.footer_adres {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 18px;
+}
+.footer_adres_one h6 {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ffffff;
+}
+.footer_adres_one p {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ffffff;
+}
+.footer_adres_social img {
+  background: #968d8d;
+  list-style-type: none;
+  margin-left: 34px;
+  font-size: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 10px;
+  transition: 0.3s;
+}
+.footer_adres_social img:hover {
+  background-color: blue;
+  transform: scale(1.2);
+}

@@ -1,0 +1,7 @@
+<div class="choose_block">
+  <div routerLink="/category" class="category_1" *ngFor="let item of element">
+    <img src="{{ item?.img }}" alt="icon" />
+    <h5 class="category_name">{{ item?.title }}</h5>
+    <p class="busi_text">{{ item?.categorytext }}</p>
+  </div>
+</div>
